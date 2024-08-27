@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #4caf50;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 20px auto;
+}
+
+#sound-library,
+#soundscape-canvas {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 45%;
+  min-height: 300px;
+}
