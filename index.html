@@ -9,19 +9,39 @@
 </head>
 
 <body>
-    <header>
-        <h1>Soundscapes</h1>
-    </header>
-
-    <main>
-        <div id="sound-library">
-            <!-- Sound elements will go here -->
+    <div id="app" data-v-app>
+        <div class="sounds-burger-menu">
+            <button class="link">
+                <svg aria-hidden="true" width="2em" height="2em" fill="currentColor" stroke="">
+                    <use href="hamburger.svg#icon"></use>
+                </svg>
+            </button>
         </div>
-
-        <div id="soundscape-canvas">
-            <!-- Dropped sound elements will be placed here -->
-        </div>
-    </main>
+        <nav class="bar">
+            <div class="sound-options">
+                <a class="sound-button">
+                    <div class="icon"></div>
+                    <div class="label">Sound 1</div>
+                </a>
+                <a class="sound-button">
+                    <div class="icon"></div>
+                    <div class="label">Sound 2</div>
+                </a>
+                <a class="sound-button">
+                    <div class="icon"></div>
+                    <div class="label">Sound 3</div>
+                </a>
+                <a class="sound-button">
+                    <div class="icon"></div>
+                    <div class="label">Sound 4</div>
+                </a>
+                <a class="sound-button">
+                    <div class="icon"></div>
+                    <div class="label">Sound 5</div>
+                </a>
+            </div>
+        </nav>
+    </div>
 
     <script src="script.js"></script>
 </body>
